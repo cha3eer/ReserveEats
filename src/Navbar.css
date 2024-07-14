@@ -4,7 +4,7 @@ header{
     position: fixed;
     top: 0;
     left: 0;
-    background-color: #2b2b2b;
+    background-color: #1F1F1F;
     z-index: 3;
     nav{
         width: 90%;
@@ -14,6 +14,10 @@ header{
         justify-content: space-between;
         align-items: center;
         color: aliceblue;
+
+        span{
+            color: #FF6F61;
+        }
         
         
         ul{
@@ -27,7 +31,7 @@ header{
                 transition: 500ms all ease-in-out;
                 text-decoration: none;
                 &:hover{
-                    background-color: gold;
+                    background-color:#FF6F61;
                     transform: scale(1.1);
                     
                 }
