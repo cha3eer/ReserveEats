@@ -15,7 +15,7 @@ const Products = () => {
       .catch((err) => console.log(err));
   }, []);
 
-  return (
+  return ( 
     <div className={ProdSty.products}>
         <Navbar/>
       {products.map((el) => (

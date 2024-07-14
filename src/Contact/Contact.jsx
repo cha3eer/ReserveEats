@@ -5,7 +5,7 @@ import Footerrr from '../Footerrr';
 
 const Contact = () => {
   return (
-    <div>
+    <div> 
       <Navbar/>
       <div className={contacsty.between}>
         <h3>

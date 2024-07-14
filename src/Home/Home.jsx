@@ -12,7 +12,7 @@ import Footerrr from '../Footerrr'
 
 const Home = () => {
   return (
-    <div>
+    <div> 
       <Navbar/>
       <div className={Homesty.ground}>
       <img src={one} alt="Food Image" />

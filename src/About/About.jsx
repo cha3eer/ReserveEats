@@ -5,7 +5,7 @@ import First from "./../images/image 111 (1).png"
 import sec from "./../images/BG.png"
 import thir from "./../images/gas-stove-svgrepo-com.svg"
 import Footerrr from '../Footerrr';
-
+ 
 const About = () => {
   return (
     <div>

@@ -19,6 +19,6 @@ const Footerrr = () => {
     </footer>
     </div>
   )
-}
+} 
 
 export default Footerrr
