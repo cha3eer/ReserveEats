@@ -10,7 +10,7 @@
   import Footerrr from '../Footerrr'
 
 
-  const Home = () => {
+  const Home = () => { 
     return (
       <div> 
         <Navbar/>

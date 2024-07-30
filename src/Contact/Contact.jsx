@@ -7,7 +7,7 @@ const Contact = () => {
   return (
     <div> 
       <Navbar/>
-      <div className={contacsty.between}>
+      <div className={contacsty.between}> 
         <h3>
           <span style={{ color: "#FF6F61", fontSize: "35px" }}> Contact</span> 
           <span style={{ color: "#FF6F61", fontSize: "35px" }}> US </span>

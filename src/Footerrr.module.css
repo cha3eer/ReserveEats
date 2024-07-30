@@ -66,7 +66,7 @@
   font-size: 24px;
   font-weight: bold;
   color: whitesmoke;
-}
+} 
 
 
 
@@ -84,7 +84,7 @@
 }
 
 .callUs:hover {
-  background-color: #ff6f61;
+  background-color: #ff6f61 !important;
   border-radius: 15px;
 }
 

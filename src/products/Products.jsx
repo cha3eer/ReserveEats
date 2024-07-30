@@ -30,7 +30,7 @@ const Products = () => {
           </div>
         ))}
       </div>
-      <Footerrr />
+      <Footerrr /> 
     </>
   );
 };

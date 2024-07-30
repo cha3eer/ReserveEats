@@ -10,7 +10,7 @@ const Footerrr = () => {
           <p className={styles.footerText}>
             We are a company dedicated to providing the best service to our
             customers. Our commitment to quality and excellence is unmatched.
-          </p>
+          </p> 
         </div>
         <div className={`${styles.footerSection} ${styles.centeredSection}`}>
           <h2 className={styles.footerHeader}>Quick Links</h2>
