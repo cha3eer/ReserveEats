@@ -6,6 +6,7 @@ import Footerrr from "../Footerrr";
 
 const Products = () => {
   const [products, setProducts] = useState([]);
+
   useEffect(() => {
     axios
       .get("https://dummyjson.com/products")
@@ -17,15 +18,15 @@ const Products = () => {
 
   return (
     <>
+      <Navbar />
       <div className={ProdSty.products}>
-        <Navbar />
-        {products.map((el) => (
-          <div className={ProdSty.product}>
-            <img src={el.thumbnail} alt="" />
-            <h1>{el.title}</h1>
-            <h2>${el.price}</h2>
-            <h3>{el.category}</h3>
-            <p>{el.description}</p>
+        {products.map((product) => (
+          <div key={product.id} className={ProdSty.product}>
+            <img src={product.thumbnail} alt={product.title} />
+            <h1>{product.title}</h1>
+            <h2>${product.price}</h2>
+            <h3>{product.category}</h3>
+            <p>{product.description}</p>
           </div>
         ))}
       </div>

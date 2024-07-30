@@ -1,11 +1,11 @@
 import React from 'react';
 import Navbar from '../Navbar';
 import AboutSty from './About.module.css'; 
-import First from "./../images/image 111 (1).png"
-import sec from "./../images/BG.png"
-import thir from "./../images/gas-stove-svgrepo-com.svg"
+import First from "./../images/image 111 (1).png";
+import sec from "./../images/BG.png";
+import thir from "./../images/gas-stove-svgrepo-com.svg";
 import Footerrr from '../Footerrr';
- 
+
 const About = () => {
   return (
     <div>
@@ -13,9 +13,8 @@ const About = () => {
       <div className={AboutSty.aboutab}> 
         <div className={AboutSty.content}>
           <div className={AboutSty.imgandcard}>
-            <img src={First} alt="" />
+            <img src={First} alt="Healthy Food" />
           </div>
-
           <div className={AboutSty.tex}>
             <h3>We provide healthy food for your family.</h3>
             <p style={{ fontWeight: 550 }}>
@@ -24,7 +23,7 @@ const About = () => {
               ambiance. Rooted in city's rich culinary culture, we aim to honor
               our local roots while infusing a global palate.
             </p>
-            <p style={{ fontWeight: 500, color: '#414536', lineHeight: 1.5 }}>
+            <p style={{ fontWeight: 500, color: '#414536', lineHeight: 1.6 }}>
               At place, we believe that dining is not just about food, but also
               about the overall experience. Our staff, renowned for their warmth
               and dedication, strives to make every visit an unforgettable event.
@@ -32,10 +31,9 @@ const About = () => {
           </div>
         </div>
       </div>
-
       <div className={AboutSty.contentab}> 
         <div className={AboutSty.imgg}>
-          <img src={sec} alt="" />
+          <img src={sec} alt="Background" />
           <div className={AboutSty.overlay}>
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -70,7 +68,7 @@ const About = () => {
               />
             </svg>
             <div className={AboutSty.item}>
-              <h4 style={{ color: '#FF6F61' }}>Multi Cuisine</h4>
+              <h4>Multi Cuisine</h4>
               <p>
                 In the new era of technology we look in the future with certainty
                 life.
@@ -79,10 +77,10 @@ const About = () => {
             <img
               style={{ width: '50px', height: '25px', fill: '#FF6F61', color: '#FF6F61' }}
               src={thir}
-              alt=""
+              alt="Gas Stove"
             />
             <div className={AboutSty.item}>
-              <h4 style={{ color: '#FF6F61' }}>Easy To Order</h4>
+              <h4>Easy To Order</h4>
               <p>
                 In the new era of technology we look in the future with certainty
                 life.
@@ -101,7 +99,7 @@ const About = () => {
               />
             </svg>
             <div className={AboutSty.item}>
-              <h4 style={{ color: '#FF6F61' }}>Fast Delivery</h4>
+              <h4>Fast Delivery</h4>
               <p>
                 In the new era of technology we look in the future with certainty
                 life.
@@ -110,7 +108,7 @@ const About = () => {
           </div>
         </div>
       </div>
-      <Footerrr/>
+      <Footerrr />
     </div>
   );
 };
